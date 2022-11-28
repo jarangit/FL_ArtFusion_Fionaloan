@@ -25,7 +25,7 @@ const Banner = () => {
   return (
     <div className='my_bg_banner h-[610px] relative overflow-hidden'>
       {/* image banner */}
-      <div className=' absolute right-24 -top-20'>
+      <div className=' absolute right-24 -top-20 hidden lg:block'>
         <img src="/img/banner.png" alt="" width={550} />
       </div>
 
@@ -35,10 +35,10 @@ const Banner = () => {
             <div>
               <img src="/img/logo.svg" alt="" />
             </div>
-            <div className='text-3xl text-gray-dark'>fionaloan-online</div>
+            <div className='text-3xl text-gray-dark my_font_DMSANS'>fionaloan-online</div>
           </div>
 
-          <h1 className='text-6xl font-bold'>
+          <h1 className='text-3xl text-center lg:text-left lg:text-6xl font-bold'>
             Get Your Personal Loan Up To $5000
           </h1>
         </div>

@@ -2,7 +2,9 @@ import React from 'react'
 
 const FormPage = () => {
   return (
-    <div>FormPage</div>
+    <div className='w-full'>
+      <div id="_lg_form_" />
+    </div>
   )
 }
 
