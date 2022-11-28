@@ -1,9 +1,10 @@
 import './App.css';
+import Banner from './components/layouts/banner';
 
 function App() {
   return (
     <div>
-      fionaloan-online
+      <Banner />
     </div>
   );
 }
