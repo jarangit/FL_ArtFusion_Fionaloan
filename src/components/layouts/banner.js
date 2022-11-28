@@ -38,7 +38,7 @@ const Banner = () => {
             <div className='text-3xl text-gray-dark my_font_DMSANS'>fionaloan-online</div>
           </div>
 
-          <h1 className='text-3xl text-center lg:text-left lg:text-6xl font-bold'>
+          <h1 className='text-3xl text-center lg:text-left lg:text-6xl font-bold my_font_custom text-black'>
             Get Your Personal Loan Up To $5000
           </h1>
         </div>

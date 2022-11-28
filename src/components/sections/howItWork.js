@@ -38,7 +38,7 @@ const HowItWork = () => {
           </div>
           <div className=' col-span-3 lg:col-span-1 lg:order-2 order-1'>
             <div className='relative'>
-              <div className='text-4xl font-bold'>How It Works</div>
+              <div className='text-4xl font-bold my_font_custom text-black'>How It Works</div>
               <div className='w-20 h-1 bg-green absolute -bottom-5 opacity-75' />
             </div>
             <div className='mt-10'>

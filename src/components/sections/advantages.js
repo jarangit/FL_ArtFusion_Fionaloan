@@ -26,7 +26,7 @@ const Advantages = () => {
       <div className='myContainer'>
         <div className='py-28'>
           <div className='text-center flex flex-col gap-6'>
-            <div className='text-3xl font-bold'>Advantages</div>
+            <div className='text-4xl font-bold my_font_custom'>Advantages</div>
             <div className='w-16 h-1 bg-yellow text-center mx-auto' />
             <div className='text-xl opacity-75'>Just fill out our smart request form, get connected with a lender and enjoy your extra cash!</div>
           </div>

@@ -50,7 +50,9 @@ const ARPSection = () => {
     <div className='my-28'>
       <div className='myContainer'>
         <div className='flex flex-col items-center gap-6'>
-          <div className='text-3xl font-bold text-center'>
+        <div className='w-16 h-1 bg-[#488cc8]' />
+
+          <div className='text-3xl font-bold text-center my_font_custom text-black max-w-[30%]'>
             APR Rate Range
             and Repayment Terms
           </div>

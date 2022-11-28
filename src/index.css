@@ -49,8 +49,8 @@ select {
   text-indent: 1px;
   text-overflow: "";
 }
-.my_font_DMSANS {
-  font-family: "DM Sans", sans-serif;
+.my_font_custom {
+  font-family: 'DM Serif Display', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -69,4 +69,17 @@ select {
 input,
 input:focus {
   outline: none;
+}
+.header__pointer_form {
+  content: '';
+  position: absolute;
+  bottom: -.4rem;
+  left: -1.5rem;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 0 0 .125rem 0;
+  background: inherit;
+  -webkit-transform: rotate(90deg) skew(16deg,16deg);
+  transform: rotate(90deg) skew(16deg,16deg);
+  background-color: #f86e53;
 }
