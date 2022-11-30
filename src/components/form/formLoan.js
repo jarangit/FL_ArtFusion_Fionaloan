@@ -67,7 +67,7 @@ const LoanForm = ({ onChangeDataForm, goToPosts, dataForm }) => {
             <input type="password" id="ssn" name="ssn" maxLength={4} value={dataForm.ssn} className={`${styled.input}`} placeholder="***" />
             <label for="ssn" name="ssn" value={dataForm.ssn} className={styled.label}>Last 4 digits of SSN</label>
           </div>
-          <a href='/form'  className="flex items-center justify-center w-full h-[70px] my_bg_yellow rounded-md text-black font-bold drop-shadow-md transition-all hover:bg-[#ffee89] text-xl text-black" >
+          <a href='/form-loan'  className="flex items-center justify-center w-full h-[70px] my_bg_yellow rounded-md text-black font-bold drop-shadow-md transition-all hover:bg-[#ffee89] text-xl text-black" >
             <div className='flex gap-3 justify-center items-center opacity-70'>
               <div className=''>
                 Get Started
